@@ -10,7 +10,7 @@ export default function MapPreview({ latitude, longitude }) {
     );
   }
 
-  const apiKey = 'AIzaSyBgiXweXpz-hrwdLHQQH1u76S9r5n9xaNA';
+  const apiKey = 'Reemplazar por Su API';
   const marker = `markers=color:red|label:U|${latitude},${longitude}`;
   const mapUrl = `https://maps.googleapis.com/maps/api/staticmap?center=${latitude},${longitude}&zoom=14&size=400x400&key=${apiKey}&${marker}`;
 
